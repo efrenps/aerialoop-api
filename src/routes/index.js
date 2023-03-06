@@ -38,14 +38,7 @@ router.post('/upload', upload.array('files', 10), async (req, res, next) => {
 
 
 router.get('/', async (req, res) => {
-	//const currentUser = JSON.parse(localStorage.getItem('currentUser'));
-	//if(!currentUser || !req.session)
-	//	return res.redirect('/login');
-
-	//const dashboard = new Dashboard();
-	//const inventoryCount = await dashboard.getInventoryCount();
-	
-	res.send('Home')
+	res.send('Interview And Case Study (FullStack Engineer)');
 });
 
 module.exports = router;

@@ -4,7 +4,6 @@ const getMongoDb = require('../helpers/mongoHelper');
 
 class ItineraryController {
     constructor() {
-        // record['startTime'] = moment.utc(record['startTimeMS']).format('HH:mm');
     }
 
     async getData(){
